@@ -58,6 +58,10 @@ Route::get('/register', function(){
 Route::get('/charts', function(){
     return view("charts");
 });
+Route::get('/ui-colors', function(){
+    return view("ui-colors");
+});
+
 
 Route::view('/index', 'layouts.index')->name('index');
 Route::view('/modals', 'layouts.modals')->name('modals');
@@ -75,4 +79,4 @@ Route::view('/blank', 'Auth.blank')->name('blank');
 Route::view('/login', 'Auth.login')->name('login');
 Route::view('/register', 'Auth.register')->name('register');
 Route::view('/charts', 'charts')->name('charts');
-
+Route::view('/ui-colors', 'ui-colors')->name('ui-colors');

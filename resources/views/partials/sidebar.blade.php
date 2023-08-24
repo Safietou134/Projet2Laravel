@@ -62,7 +62,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="ui-colors.html">
+        <a class="nav-link" href="{{ route('ui-colors') }}">
           <i class="fas fa-fw fa-palette"></i>
           <span>UI Colors</span>
         </a>
